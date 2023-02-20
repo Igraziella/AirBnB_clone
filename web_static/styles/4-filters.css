@@ -1,6 +1,6 @@
 div.container {
     max-width: 1000px;
-    margin: 30px, auto;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -21,6 +21,7 @@ section.filters button {
     border: 0;
     border-radius: 4px;
     float: right;
+    line-height: 100%;
     margin: 11px 30px;
 }
 
