@@ -15,9 +15,11 @@ section.filters button {
     width: 20%;
     border: 0;
     border-radius: 4px;
-    /* float: right; */
-    line-height: 100%;
-    margin: auto 30px;
+    float: right;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    align-items: center;
 }
 
 section.filters button:hover {
@@ -28,13 +30,14 @@ section.filters.locations
 section.filters.amenities {
     height: 100%;
     width: 25%;
-    border-right: 1px solid #DDDDDD;
+    border: 1px solid #DDDDDD;
 }
 
 .locations h3
 .amenities h3 {
     font-weight: 600;
     margin-bottom: 0px;
+    float: left;
 }
 
 div.locations h4
