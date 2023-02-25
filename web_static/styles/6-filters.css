@@ -1,5 +1,4 @@
 .filters {
-    color: black;
     height: 70px;
     width: 100%;
     border: 1px solid #DDDDDD;
@@ -46,16 +45,19 @@ button:hover {
 }
 
 .popover {
+    /* display: none; */
     background-color: #fafafa;
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     width: 100%;
     list-style-type: none;
     padding-inline-start: 0;
+    padding-bottom: 15px;
 }
 
 .popover h2 { 
-    margin: 5px;
+    font-size: 16px;
+    margin: 0;
     margin-top: 20px;
 }
 
@@ -67,4 +69,8 @@ button:hover {
     margin-left: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.popover:hover {
+    display: block;
 }
