@@ -1,0 +1,24 @@
+.price_by_night h3 {
+    margin: 0;
+    margin-top: 10px;
+}
+
+.information {
+    height: 80px;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.max.guest, .number_rooms, .number_bathrooms {
+    width: 100px;
+    text-align: center;
+}
+
+.user {
+    margin: 15px;
+    margin-right: auto;
+}

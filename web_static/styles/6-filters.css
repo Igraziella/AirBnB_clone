@@ -71,6 +71,9 @@ button:hover {
     margin-bottom: 20px;
 }
 
-.popover:hover {
+.amenities:hover .popover {
+    display: block;
+}
+.locations:hover .popover {
     display: block;
 }
