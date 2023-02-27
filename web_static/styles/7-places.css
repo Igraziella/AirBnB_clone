@@ -10,6 +10,7 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
 article {
     width: 390;
     padding: 20px;
@@ -19,8 +20,9 @@ article {
 }
 
 article h2 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
-    margin: 0;
-    margin-left: 120px;
+    margin: auto;
+    align-items: center;
+    margin-left: 150px;
 }

@@ -1,6 +1,11 @@
-.price_by_night h3 {
+.price_by_night {
     margin: 0;
     margin-top: 10px;
+    color: #FF5A5F;
+    border: 4px solid #FF5A5F;
+    min-width: 60px;
+    height: 60px;
+    font-size: 30px;
 }
 
 .information {
@@ -13,7 +18,7 @@
     justify-content: space-evenly;
 }
 
-.max.guest, .number_rooms, .number_bathrooms {
+.max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
     text-align: center;
 }
