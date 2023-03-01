@@ -1,6 +1,4 @@
 .places h1 {
-    display: flex;
-    justify-content: left;
     padding-left: 15px;
     font-size: 30px;
 }
@@ -21,8 +19,5 @@ article {
 
 article h2 {
     font-size: 30px;
-    text-align: center;
-    margin: auto;
-    align-items: center;
-    margin-left: 150px;
+    margin: 0;
 }

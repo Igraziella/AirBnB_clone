@@ -4,6 +4,7 @@
     border: 1px solid #DDDDDD;
     border-radius: 4px;
     display: flex;
+    /* align-items: center; */
 }
 
 button {
@@ -59,6 +60,7 @@ button:hover {
     font-size: 16px;
     margin: 0;
     margin-top: 20px;
+    margin-left: 20px;
 }
 
 .locations .popover li {
@@ -74,6 +76,7 @@ button:hover {
 .amenities:hover .popover {
     display: block;
 }
+
 .locations:hover .popover {
     display: block;
 }
