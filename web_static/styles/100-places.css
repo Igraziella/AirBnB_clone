@@ -83,17 +83,20 @@ article h2 {
     text-align: left;
 }
 
-.equipments h2,
 .reviews h2 {
     font-size: 16px;
     border-bottom: 1px solid #DDDDDD;
     text-align: left;
-    padding-top: 10px;
+    padding-top: 0;
 }
 
+.equipments, .pet_icon {
+    font-size: 10px;
+}
 .equipments ul {
     list-style: none;
     padding-inline-start: 0px;
+    font-size: 12px;
 }
 
 .pet_icon, .tv_icon, .wifi_icon {
