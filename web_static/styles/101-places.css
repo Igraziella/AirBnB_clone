@@ -19,8 +19,7 @@ article {
 
 article h2 {
     font-size: 30px;
-    text-align: center;
-    margin: 0;
+    margin: 0px;
 }
 
 .price_by_night {
@@ -30,14 +29,13 @@ article h2 {
     border-radius: 50%;
     min-width: 60px;
     height: 60px;
-    font-size: 30px;
+    font-size: 25px;
     padding: 3px;
     margin-left: 80%;
 }
 
 .price_by_night h3 {
     margin: 10px;
-    text-align: center;
 }
 
 .information {
@@ -47,43 +45,91 @@ article h2 {
     border-bottom: 1px solid #DDDDDD;
     display: flex;
     margin-top: 10px;
+    align-items: center;
     justify-content: space-evenly;
 }
 
-.max_guest {
-    background-image: url(../images/icon_bed.png);
-    background-repeat: no-repeat;
+.max_guest, .number_rooms, .number_bathrooms {
     width: 100px;
+    height: 50px;
+}
+
+.max_guest {
+    background-image: url(../images/icon_group.png);
+    background-repeat: no-repeat;
     text-align: center;
-    background-position: top;
 }
 
 .number_rooms {
-    width: 100px;
     text-align: center;
-    background-image: url(../images/icon_group.png);
+    background-image: url(../images/icon_bed.png);
     background-repeat: no-repeat;
 }
 
 .number_bathrooms {
-    width: 100px;
     text-align: center;
     background-image: url(../images/icon_bath.png);
     background-repeat: no-repeat;
 }
 
-.max_guest, .number_rooms, .number_bathrooms {
-    display: flex;
-    justify-content: center;
-    align-items: last baseline;
-    
-}
-
 .user {
-    margin: 15px;
-    margin-right: auto;
+    margin: 0;
+    margin-top: 20px;
 }
 
 .description {
     text-align: left;
+}
+
+.reviews h2 {
+    font-size: 16px;
+    border-bottom: 1px solid #DDDDDD;
+    text-align: left;
+    padding-top: 0;
+}
+
+.equipments, .pet_icon {
+    font-size: 10px;
+}
+.equipments ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    font-size: 12px;
+}
+
+.pet_icon, .tv_icon, .wifi_icon {
+    background-size: 20px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    padding-left: 30px;
+    align-items: center;
+}
+
+.pet_icon {
+    background-image: url(../images/icon_pets.png);
+}
+
+.tv_icon {
+    background-image: url(../images/icon_tv.png);
+}
+
+.wifi_icon {
+    background-image: url(../images/icon_wifi.png);
+}
+
+.reviews {
+    margin-top: 40px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.reviews h3 {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.reviews p {
+    font-size: 12px;
+    margin-top: 0;
 }

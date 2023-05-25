@@ -19,7 +19,6 @@ article {
 
 article h2 {
     font-size: 30px;
-    text-align: center;
     margin: 0;
 }
 
@@ -76,7 +75,6 @@ article h2 {
     display: flex;
     justify-content: center;
     align-items: last baseline;
-    
 }
 
 .user {
